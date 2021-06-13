@@ -1,4 +1,4 @@
-function Header(): JSX.Element {
+function PageHeader(): JSX.Element {
   return (
     <header>
       <h1>Ye Olde Web Page</h1>
@@ -11,4 +11,4 @@ function Header(): JSX.Element {
   );
 }
 
-export default Header;
+export default PageHeader;
