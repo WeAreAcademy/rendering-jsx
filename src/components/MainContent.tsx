@@ -34,8 +34,7 @@ function MainContent(): JSX.Element {
       <section>
         <h2>Numbers</h2>
         <p>
-          Currently, my two favourite numbers are <b>{numOne}</b> and{" "}
-          <b>{numTwo}</b>.
+          Currently, my two favourite numbers are {numOne} and {numTwo}.
         </p>
         <p>Here's how they interact:</p>
         <ol>
