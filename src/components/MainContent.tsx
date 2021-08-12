@@ -5,9 +5,17 @@ function MainContent(): JSX.Element {
     city: "Kuala Lumpur",
     country: "Malaysia",
   };
+  const aboutMe = {
+    firstName: "Sven",
+    lastName: "H"
+  }
 
-  const numOne = 3;
-  const numTwo = 6;
+  const numOne = 6;
+  const numTwo = 12;
+
+  const noun = "wood";
+  const verb = "chuck"
+
 
   const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
 
@@ -15,7 +23,7 @@ function MainContent(): JSX.Element {
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hi! My name is Nichard Rg.</p>
+        <p>Hi! My name is {aboutMe.firstName} {aboutMe.lastName}.</p>
         <p>
           I currently live in {location.city}, {location.country}.
         </p>
@@ -23,12 +31,12 @@ function MainContent(): JSX.Element {
       <section>
         <h2>Musing of the month ({location.city}, March 2003)</h2>
         <p>
-          Q: How much wood could a woodchuck chuck if a woodchuck could chuck
-          wood?
+          Q: How much {noun} could a {noun}{verb} {verb} if a {noun}{verb} could {verb}
+          {noun}?
         </p>
         <p>
-          A: A woodchuck would chuck all the wood they could chuck if a
-          woodchuck would chuck wood.
+          A: A {noun}chuck would chuck all the {noun} they could chuck if a
+          {noun}chuck would chuck {noun}.
         </p>
       </section>
       <section>
